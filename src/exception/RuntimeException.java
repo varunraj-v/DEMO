@@ -8,10 +8,11 @@ public class RuntimeException {
 //		System.out.println(s.length());
 		try {
 			 val= num/0;
-		
+	
 			
-		}catch(ArithmeticException e) {
+		}catch(Exception e) {
 			System.out.println("sam exception occurs "+" "+e);
+		
 		}
 		finally {
 			System.out.println("no exception");

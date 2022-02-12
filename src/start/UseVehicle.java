@@ -20,7 +20,9 @@ public class UseVehicle {
 		li.add(v1);
 		li.add(v5);
 		BrandComparator bb = new BrandComparator();
-		Collections.sort(li, bb.reversed());
+		
+		
+		Collections.sort(li ,bb.reversed());
 		for (Vehicle g : li) {
 
 			System.out.println(g.getBrand() + " " + g.getType() + " " + g.getYear() + " " + g.getId());
